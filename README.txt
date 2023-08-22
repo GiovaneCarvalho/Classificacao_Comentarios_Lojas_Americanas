@@ -1,8 +1,7 @@
-O Modelo a seguir é construido em cima de comentários feitos por usuários no site da Americanas
+Este trabalho foi feito pelo grupo data makers durante a execução do projeto final da especialização em Mineração de dados complexos na Unicamp
 
-Ele faz o download da base de dados do Github e baixa as informações da base de dados
+O Projeto buscava predizer as notas dadas pelos usuários na avaliação de produtos comprados. Foram usados desde modelos mais simples até modelos de Deep Learning para tentar predizer as avaliações.
 
-O objetivo do modelo é realizar uma classificação multi label para predizer se o comentário está se referindo ao produto, serviço de entrega
-ou ao processo de compras.
+Duas abordagens principais foram tomadas. Uma classificando a nota de 1 a 5 e outra avaliando de maneira positiva e negativa.
 
-É recomendado que a execução seja feita em um servidor com poder computacional consideravel, como sessões do Colab com GPU disponível.
+Por fim, ainda criou-se um modelo para classificar o assunto de cada comentário, como: entrega, qualidade do produto, qualidade do processo de compra etc...
